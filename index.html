@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./main.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 2rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="introductory">
+    <!-- Left column -->
+    <div class="col col-left">
+      <h3 class="title"> Learn to code by watching others</h3>
+      <p class="subtext">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    </div>
+    <!-- Right column -->
+    <div class="col col-right">
+      <aside class="infobar">
+        <p><span class="infobar-bold">Try it free 7 days</span> then $20/mo. thereafter</p>
+      </aside>
+      <form class="form" id="form">
+        <div class="form-control">
+          <input type="text" class="form-input" id="first-name" placeholder="First Name">
+          <img src="./images/icon-error.svg" alt="error icon" class="error-icon">
+          <small class="error-text"></small>
+        </div>
+        <div class="form-control">
+          <input type="text" class="form-input" id="last-name" placeholder="Last Name">
+          <img src="./images/icon-error.svg" alt="error icon" class="error-icon">
+          <small class="error-text"></small>
+        </div>
+        <div class="form-control">
+          <input type="text" class="form-input" id="email" placeholder="Email address">
+          <img src="./images/icon-error.svg" alt="error icon" class="error-icon">
+          <small class="error-text"></small>
+        </div>
+        <div class="form-control">
+          <input type="password" class="form-input" id="password" placeholder="Password">
+          <img src="./images/icon-error.svg" alt="error icon" class="error-icon">
+          <small class="error-text"></small>
+        </div>
+        <button type="submit" class="form-btn" id="submit-btn">claim your free trial</button>
+        <p class="legal">By clicking the button, you are agreeing to our <a href="#" class="legal-agreement">Terms and Services</a></p>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Zuzana83">z83studio</a>.
+    </p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
